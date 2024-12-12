@@ -1,0 +1,25 @@
+/* MENU PARA PC*/
+
+.nav-desktop-container {
+ background-color: rgb(44 44 49 / 90%);
+
+}
+
+.nav-desktop-container.nav-desktop-colors, .head-colors .nav-desktop-container.nav-desktop-colors {
+    background-color: rgb(44 44 49 / 90%);
+}
+
+.head-colors .nav-desktop-container.nav-desktop-colors a {
+    color: white;
+    font-family: sans-serif ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.head-colors .nav-desktop-container.nav-desktop-colors a:hover {
+
+    color:#ff9800;
+    opacity: .8;
+    transition: all .4s ease-in;
+}
