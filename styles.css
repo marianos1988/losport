@@ -177,6 +177,10 @@
     color: #5c5c5c;
 }
 
+.footer-colors svg:hover {
+    fill: #898989;
+}
+
 
 @media (max-width: 767px) {
     .footer-colors .accordion-title {
