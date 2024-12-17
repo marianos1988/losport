@@ -1,4 +1,29 @@
 /* MENU PARA PC*/
+.js-header-utility-icon.utility-icon-md-colors .icon-inline.utility-icon.icon-lg,
+.js-utility-cart-icon.icon-inline.utility-icon.icon-lg {
+    width: 1em;
+    height: 1em;
+}
+
+.js-search-input.form-control.search-input.input_class:focus {
+    border: solid 2px black;
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.75);
+transition: all .4s ease-in;
+}
+
+.js-search-input-submit.search-btn.search-submit-btn.svg-icon-mask:hover {
+    background-color: #000;
+    transition: all .4s ease-in;
+}
+
+.search-submit-btn:hover:before {
+    transform: scale(1.5);
+    color: #fff;
+    transition: all .4s ease-in;
+}
+
 
 .nav-desktop-container {
     background: rgb(116,116,116);
@@ -33,7 +58,8 @@
 .js-desktop-dropdown.nav-dropdown-content.desktop-dropdown {
 
     background: rgb(116,116,116);
-    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%); 
+    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%);
+    border-bottom: 1px solid #ff9800;
 }
 
 .js-desktop-nav-item.nav-item-desktop.nav-item a {
@@ -50,6 +76,40 @@
 
 
 /* Menu MOBILE */
+.modal-header.no-title {
+    border: solid 2px #ff9800;
+    border-top: none;
+    background: black;
+}
+
+.js-modal-close-private.modal-close  .modal-close-icon.icon-inline.icon-lg {
+    fill: #fff;
+}
+
+.js-modal-close-private.modal-close  .modal-close-icon.icon-inline.icon-lg:hover {
+    fill:#ff9800;
+    opacity: .8;;
+    transition: all .4s ease-in;
+}
+
+.js-modal-open-private.nav-list-link  .nav-list-arrow {
+    fill:#fff ;
+}
+
+.js-modal-close-private.modal-close.modal-back .modal-close-icon.icon-inline.icon-flip-horizontal,
+.modal-header .js-modal-close-private.modal-title,
+.js-modal-close-private.js-modal-close-all-private.modal-close.js-close-all-nav-modals .modal-close-icon.icon-inline  {
+    fill: #fff;
+    color: #fff;
+}
+
+.js-modal-close-private.modal-close.modal-back .modal-close-icon.icon-inline.icon-flip-horizontal:hover,
+.modal-header .js-modal-close-private.modal-title:hover,
+.js-modal-close-private.js-modal-close-all-private.modal-close.js-close-all-nav-modals .modal-close-icon.icon-inline:hover  {
+    fill: #ff9800;
+    color: #ff9800;
+    transition: all .4s ease-in;
+}
 
 .icon-inline.utility-icon.icon-lg {
     width: 1.5em;
@@ -208,6 +268,11 @@
     fill: black;
 }
 
+.js-accordion-private-toggle-inactive  .icon-inline.icon-w-14.icon-md.ml-2:hover {
+    fill: #ff9800;
+    color: #ff9800;
+    transition: all .4s ease-in;
+}
 
 @media (max-width: 767px) {
     .footer-colors .accordion-title {
