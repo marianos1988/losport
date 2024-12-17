@@ -300,3 +300,25 @@ transition: all .4s ease-in;
         transition: all .4s ease-in;
     }
 }
+
+.modal-footer {
+    border-top: 3px solid white;
+    background-color: #ff9800 ;
+}
+
+.font-medium a {
+    font-size: 16px;
+    margin-left: 10px !important;
+    transform: translateY(-5px);
+}
+
+.font-medium a:hover {
+    font-size: 18px;
+    color: #fff;
+    transition: all .4s ease-in;
+
+}
+
+.font-medium .icon-inline.utility-icon.icon-lg {
+    transform: translateY(1px) scale(1.5);
+    }
