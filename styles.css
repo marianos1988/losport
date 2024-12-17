@@ -30,8 +30,31 @@
     
 }
 
+.js-desktop-dropdown.nav-dropdown-content.desktop-dropdown {
+
+    background: rgb(116,116,116);
+    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%); 
+}
+
+.js-desktop-nav-item.nav-item-desktop.nav-item a {
+    color: white;
+    font-family: sans-serif ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+
+
 
 /* Menu MOBILE */
+
+.icon-inline.utility-icon.icon-lg {
+    width: 1.5em;
+    height: 1.5em;
+}
 
 .nav-list {
     background: rgb(116,116,116);
@@ -58,6 +81,10 @@
     transition: all .4s ease-in;
 }
 
+.modal-right.modal-visible {
+    background: rgb(116,116,116);
+    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%); 
+}
 
 
 
@@ -178,7 +205,7 @@
 }
 
 .footer-colors svg:hover {
-    fill: #898989;
+    fill: black;
 }
 
 
