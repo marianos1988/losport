@@ -321,4 +321,54 @@ transition: all .4s ease-in;
 
 .font-medium .icon-inline.utility-icon.icon-lg {
     transform: translateY(1px) scale(1.5);
-    }
+
+}
+
+
+
+
+
+
+
+
+
+/* Seccion Productos */
+
+.filters-categories-container  .mb-4.pb-4.list-unstyled.bottom-line {
+    border: solid 3px #ff9800;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.filters-categories-container  .mb-4.pb-4.list-unstyled.bottom-line li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.filters-categories-container  .mb-4.pb-4.list-unstyled.bottom-line li a:hover{
+
+    color: #ff9800;
+    opacity: .8;
+    transition: all .4s ease-in;
+}
+
+.js-filter-container  .mb-4.pb-4.list-unstyled.bottom-line {
+    border: solid 3px #ff9800;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.js-filter-container  .js-filter-checkbox.js-apply-filter-private.checkbox-container span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.js-filter-container  .js-filter-checkbox.js-apply-filter-private.checkbox-container span:hover {
+    color: #ff9800;
+    opacity: .8;
+    transition: all .4s ease-in;
+}
