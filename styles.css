@@ -414,6 +414,27 @@ transition: all .4s ease-in;
     font-family: sans-serif ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
 }
 
+.js-accordion-private-container .js-accordion-private-toggle.d-inline-block.btn-link.font-small.mt-1 span {
+    color: #fff;
+    text-decoration: none;
+}
+
+.js-accordion-private-container .js-accordion-private-toggle.d-inline-block.btn-link.font-small.mt-1 span:hover {
+    color:#ff9800;
+    opacity: .8;
+    transition: all .4s ease-in;
+}
+
+.js-price-filter-container.price-filter-container.mb-4.pb-2 form .form-group {
+    border: solid 3px #ff9800;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
 
 
 
@@ -549,6 +570,6 @@ transition: all .4s ease-in;
 
 .form-group .js-price-filter-btn.btn.btn-inline.price-filter-btn {
     color: #000;
-    outline-color: 1px solid #fff;
+    outline: 1px solid #fff;
     background-color: #ff9800;
 }
