@@ -463,8 +463,19 @@ transition: all .4s ease-in;
     border-radius: 20px;
 }
 
+.js-product-item-private-with-secondary-images.product-item-image-container:hover {
+    border: 2px solid #ff9800;
+    -webkit-box-shadow: 0px 0px 21px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 21px 9px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 21px 9px rgba(0,0,0,0.75);
+    transition: all .4s ease-in;
+}
 
-
+.product-item-information.d-flex.flex-column.pt-3.pb-2 a .js-item-name.product-item-name.mb-3 {
+    font-family: sans-serif ,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    font-size: 17px;
+    font-weight: 700;
+}
 
 
 
@@ -610,5 +621,5 @@ transition: all .4s ease-in;
 
 
 
-/*Modulo Prodcutos*/
+
 
