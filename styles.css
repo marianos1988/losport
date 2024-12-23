@@ -1,3 +1,4 @@
+
 /* MENU PARA PC*/
 .js-header-utility-icon.utility-icon-md-colors .icon-inline.utility-icon.icon-lg,
 .js-utility-cart-icon.icon-inline.utility-icon.icon-lg {
@@ -22,6 +23,36 @@ transition: all .4s ease-in;
     transform: scale(1.5);
     color: #fff;
     transition: all .4s ease-in;
+}
+
+.js-header-utility-with-text.header-utility.d-none.d-md-grid .js-header-utility-icon.utility-icon-md-colors:hover {
+
+        fill: #ff9800;
+        -webkit-box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.75);
+        transition: all .4s ease-in;
+}
+
+.js-header-utility-icon.utility-icon-md-colors .icon-inline.utility-icon.icon-lg:hover {
+    fill: #ff9800;
+    transition: all .4s ease-in;
+}
+
+.js-modal-open-private.header-utility .js-header-utility-icon.utility-icon-md-colors:hover {
+    fill: #ff9800;
+    -webkit-box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 9px 4px rgba(0,0,0,0.75);
+    transition: all .4s ease-in;
+}
+
+.utility-text .font-weight-bold a:hover,
+.js-header-utility-text.js-header-utility-text-cart.utility-text.d-none.d-md-grid .font-weight-bold.d-flex .mr-1:hover {
+
+    color: #5c5c5c !important;
+    transition: all .4s ease-in;
+
 }
 
 
@@ -573,3 +604,11 @@ transition: all .4s ease-in;
     outline: 1px solid #fff;
     background-color: #ff9800;
 }
+
+
+
+
+
+
+/*Modulo Prodcutos*/
+
