@@ -178,8 +178,24 @@ transition: all .4s ease-in;
 }
 
 
+/*Carousel*/
 
 
+.swiper-button-prev.js-swiper-home-prev.svg-icon-text .icon-inline.icon-2x.icon-flip-horizontal,
+.swiper-button-next.js-swiper-home-next.svg-icon-text .icon-inline.icon-2x {
+    background-color: #ff9800;
+    outline: 3px white solid;
+    border-radius: 50%;
+    fill: #fff;
+    opacity: .7;
+} 
+
+.swiper-button-prev.js-swiper-home-prev.svg-icon-text .icon-inline.icon-2x.icon-flip-horizontal:hover,
+.swiper-button-next.js-swiper-home-next.svg-icon-text .icon-inline.icon-2x:hover {
+    background-color: #c07300;
+    opacity: 1;
+    transition: all .4s ease-in;
+} 
 
 
 
@@ -620,6 +636,19 @@ transition: all .4s ease-in;
 
 
 
+
+
+
+
+
+
+/* Seccion Producto */
+
+.swiper-wrapper .js-product-slide-link.d-block.position-relative ,
+.swiper-wrapper .js-product-slide.swiper-slide.slider-slide.swiper-slide-active {
+
+transform: scale(.7);
+}
 
 
 
