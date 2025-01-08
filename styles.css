@@ -494,6 +494,37 @@ transition: all .4s ease-in;
 }
 
 
+.js-insta-variant.btn.btn-variant.selected span {
+	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,1);
+	background-color: #ffbf58;	
+	transition: all .5s ease-in;
+	color: black;
+}
+
+.cart-button-container .btn-primary {
+    width: 150px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background: transparent;
+    transition: all 0.3s ease;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    background: #ff9800;
+    background: linear-gradient(0deg, #ff9800 0%, #c07300 100%);
+    border: none;
+}
+
+.cart-button-container .btn-primary:hover {
+    background-color: #c07300;
+    transition: all .4s ease-in;
+
+}
+
 
 
 
